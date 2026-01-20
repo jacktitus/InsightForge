@@ -1,0 +1,7 @@
+ age,salary,city,gender,churn
+25,30000,Chennai,M,0
+32,45000,Bangalore,F,0
+40,,Mumbai,M,1
+29,38000,Delhi,F,0
+50,60000,Chennai,M,1
+35,52000,Bangalore,F,0
