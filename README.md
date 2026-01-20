@@ -19,3 +19,30 @@ It is designed for:
 - Data analysts & ML learners
 - Auto-ML style experimentation
 
+## How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/yourusername/InsightForge.git
+cd InsightForge
+
+2. Create and activate a virtual environment:
+
+python -m venv venv
+
+3. Install dependencies:
+
+pip install -r requirements.txt
+4.Place your dataset in the data/ folder
+(or update the path in main.py).
+
+5. Edit main.py and set your target column
+6. Run the system:
+
+data flow 
+
+Dataset
+↓
+Data Profiler → Rule Engine → Prompt Builder → AI Layer
+↓ ↓ ↓ ↓
+Structure ML Reasoning Expert Prompt Final Report
