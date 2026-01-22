@@ -7,3 +7,5 @@ def call_ai(prompt):
     For now, it just returns the prompt for testing.
     """
     return "\n--- AI WOULD pGENERATE REPORT FROM THIS PROMPT ---\n" + prompt
+
+#implemet open ai here ""use gpt mini" 
