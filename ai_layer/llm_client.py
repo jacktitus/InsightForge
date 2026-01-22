@@ -8,7 +8,8 @@ def call_ai(prompt):
     """
     return "\n--- AI WOULD pGENERATE REPORT FROM THIS PROMPT ---\n" + prompt
 
-"" client = OpenAI(api_key=os.getenv("OPENAI_API_KEY")) def call_ai(prompt):    
+"" client = OpenAI(api_key=os.getenv("OPENAI_API_KEY")) 
+def call_ai(prompt):    
     response = client.chat.completions.create(         
         model="gpt-4o-mini",         
         messages=[{"role": "user", "content": prompt}],         
